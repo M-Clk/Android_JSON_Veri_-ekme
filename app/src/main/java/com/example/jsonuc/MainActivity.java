@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error) {
                 if(!internetKontrol()) {
-                    Toast.makeText(getApplicationContext(), "İNTERNET YOK!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "İNTERNET BAĞLANTINIZI KONTROL EDİN!", Toast.LENGTH_LONG).show();
                     progressDialog.dismiss();
                 }
 
